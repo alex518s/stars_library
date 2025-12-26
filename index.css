@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .start-banner {
@@ -240,7 +241,7 @@ body {
 .every__path {
   position: absolute;
   right: 0px;
-  bottom: 500px;
+  bottom: 400px;
   width: 100%;
   height: auto;
 }
@@ -379,6 +380,8 @@ body {
 
 .person {
   position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .person img {
@@ -488,11 +491,31 @@ footer h2 {
   max-width: 1035px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1400px) {
+  .every__path {
+    bottom: 550px;
+  }
+}
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
+  .every__path {
+    bottom: 700px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .every__path {
+    bottom: 750px;
+  }
   .every h2 {
     font-size: 40px;
     padding: 36px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .every__path {
+    bottom: 400px;
   }
 
   .start-banner__snows {
@@ -566,6 +589,24 @@ footer h2 {
 
   footer h2 {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .every__path {
+    bottom: 550px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .every__path {
+    bottom: 650px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .every__path {
+    bottom: 700px;
   }
 }
 
@@ -679,7 +720,7 @@ footer h2 {
   }
 
   .every__path {
-    bottom: auto;
+    bottom: 50px;
   }
 
   .every__star--1 {
@@ -861,8 +902,20 @@ footer h2 {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .every__path {
+    bottom: 90px;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .person p {
     font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .every__path {
+    bottom: 150px;
   }
 }
